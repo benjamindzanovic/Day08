@@ -1,10 +1,11 @@
-function convertStrToInt (str){
+function convertToInt (str){
 
     return parseInt(str, 16);
 }
-convertStrToInt("BA");
-convertStrToInt("F1");
-convertStrToInt("JeffBezos");
-console.log(convertStrToInt("BA"));
-console.log(convertStrToInt("F1"));
-console.log(convertStrToInt("JeffBezos"));
+convertToInt("BA");
+convertToInt("F1");
+convertToInt("JeffBezos");
+console.log(convertToInt("BA"));
+console.log(convertToInt("F1"));
+console.log(convertToInt("JeffBezos"));
+module.exports = convertToInt;
